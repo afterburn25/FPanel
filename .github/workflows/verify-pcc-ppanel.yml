@@ -1,0 +1,32 @@
+name: Verify PCC and PPanel routing
+
+on:
+  push:
+    branches:
+      - main
+      - 'dev-*'
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  pcc-ppanel-routing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify checkpoint identity
+        run: |
+          test "$(tr -d '\r\n' < VERSION)" = "5.0.0-dev.6.57"
+          grep -Fq 'Privora Command Center (PCC)' README.md
+          grep -Fq 'Privora Panel (PPanel)' README.md
+          grep -Fq 'https://domain/pcc' docs/PRODUCT-IDENTITY.md
+          grep -Fq 'https://domain/ppanel' docs/PRODUCT-IDENTITY.md
+
+      - name: Python syntax
+        run: python3 -m py_compile scripts/reconcile-panel-path-aliases.py
+
+      - name: PCC/PPanel legacy-vhost regression
+        run: bash scripts/test-6.57-pcc-ppanel-routing-fixture.sh

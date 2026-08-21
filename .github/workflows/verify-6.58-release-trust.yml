@@ -1,0 +1,26 @@
+name: Verify 6.58 release trust
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  release-trust:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Parse release public key
+        run: openssl pkey -pubin -in release/6.58/release-public-key.pem -noout
+      - name: Verify public-key fingerprint
+        run: |
+          test "$(sha256sum release/6.58/release-public-key.pem | awk '{print $1}')" = "b46f10757d8209ebb6e3379d35a5fdda982823407228925bace468a4c3edf412"
+      - name: Verify private key is not in repository
+        run: |
+          if find . -type f \( -iname '*private*.pem' -o -iname '*release-private*' \) -print -quit | grep -q .; then
+            echo 'Private release key found in repository' >&2
+            exit 1
+          fi
+      - name: Check certified package metadata
+        run: |
+          grep -Fq '16190d3941508ec67f16ba0fa673147965ba89c5447ad14cb0339a2d55f3c752' release/6.58/CERTIFICATION.md
+          grep -Fq 'exact-package tamper test: REJECT (expected)' release/6.58/CERTIFICATION.md

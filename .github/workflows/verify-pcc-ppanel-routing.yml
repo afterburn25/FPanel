@@ -1,0 +1,29 @@
+name: Verify Privora pre-live regressions
+
+on:
+  pull_request:
+  push:
+    branches:
+      - dev-6.57-pcc-ppanel-routing
+
+jobs:
+  pcc-ppanel-routing:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify checkpoint identity
+        run: |
+          grep -Fq '5.0.0-dev.6.61' README.md
+          test -f checkpoints/5.0.0-dev.6.61.md
+          grep -Fq 'Update Reliability & Live Domain Reconciliation Repair' checkpoints/5.0.0-dev.6.61.md
+      - name: Python syntax
+        run: python3 -m py_compile scripts/reconcile-panel-shortcuts.py
+      - name: PCC/PPanel legacy-vhost regression
+        run: python3 tests/test_pcc_ppanel_routing.py
+      - name: 6.61 release discipline regression
+        run: |
+          grep -Fq 'PCC Update Center refresh must not return HTTP 500' checkpoints/5.0.0-dev.6.61.md
+          grep -Fq 'preflight uses a 90s timeout' checkpoints/5.0.0-dev.6.61.md
+          grep -Fq 'active PCC PHP-FPM runtime' checkpoints/5.0.0-dev.6.61.md
+          grep -Fq 'Known hosted root domains cannot disappear' checkpoints/5.0.0-dev.6.61.md
+          grep -Fq 'signed Privora Update Center ZIP' checkpoints/5.0.0-dev.6.61.md

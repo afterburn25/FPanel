@@ -17,9 +17,9 @@ jobs:
           test -f checkpoints/5.0.0-dev.6.61.md
           grep -Fq 'Update Reliability & Live Domain Reconciliation Repair' checkpoints/5.0.0-dev.6.61.md
       - name: Python syntax
-        run: python3 -m py_compile scripts/reconcile-panel-shortcuts.py
+        run: python3 -m py_compile scripts/reconcile-panel-path-aliases.py
       - name: PCC/PPanel legacy-vhost regression
-        run: python3 tests/test_pcc_ppanel_routing.py
+        run: bash scripts/test-6.57-pcc-ppanel-routing-fixture.sh
       - name: 6.61 release discipline regression
         run: |
           grep -Fq 'PCC Update Center refresh must not return HTTP 500' checkpoints/5.0.0-dev.6.61.md

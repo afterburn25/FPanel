@@ -1,0 +1,5 @@
+Production delivery target:
+curl -fsSL --proto '=https' --tlsv1.2 https://install.privora.example | bash
+
+Local/source certification:
+sudo ./install/privora-install.sh --source-dir "$(pwd)" --hostname panel.example.com --admin-email admin@example.com

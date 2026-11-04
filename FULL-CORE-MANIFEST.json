@@ -1,0 +1,1690 @@
+{
+  "version": "5.0.0-dev.7.0",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "5c7f1254e18a0f7b6d187ef396f1a5670c5de50c74f3f89b76b1f8ab8b06d5b6",
+      "size": 51
+    },
+    {
+      "path": "CHECKPOINT.md",
+      "sha256": "c26ce61284eb020789f1fd48b29cd5c1f309ea62fd75ae7605bc40db7b85af72",
+      "size": 1564
+    },
+    {
+      "path": "FRESH-INSTALL-TEST.md",
+      "sha256": "b98fc6e87129d73bad14c45e711ef392fe8eaf14c89393a663235f5b85452fea",
+      "size": 2025
+    },
+    {
+      "path": "README.md",
+      "sha256": "3daac60b84cabdb0e181d4e5b8147fdf6343580fd4d61b02a05f84cac71c6444",
+      "size": 18451
+    },
+    {
+      "path": "RECOVERY-6.1.md",
+      "sha256": "21043df70a99222e7f318a195744bc0ad1dae60f8261960f0c87c2e47ccedf0a",
+      "size": 815
+    },
+    {
+      "path": "RECOVERY-6.10.md",
+      "sha256": "34512f05b6b781178a02e4f688a1eaa9303b316a7d4b360e76031a5dcc38687b",
+      "size": 870
+    },
+    {
+      "path": "RECOVERY-6.11.md",
+      "sha256": "45d032e3f53d9315d3dd4095671476a4384e39deb15a756a2773f7300e7ff395",
+      "size": 835
+    },
+    {
+      "path": "RECOVERY-6.12.md",
+      "sha256": "1a195b03706a45be76f76fa86e213f12137c27e4eb2915bb7b90955c23d75b06",
+      "size": 692
+    },
+    {
+      "path": "RECOVERY-6.13.md",
+      "sha256": "e712a4a4efb14e667ab75017f1f0cf67384e0898d6ab63d95bb74755bbe2957f",
+      "size": 819
+    },
+    {
+      "path": "RECOVERY-6.14.md",
+      "sha256": "a8818eba9df648ca8902f50ffd594d0281bacd4b83fe95102e7c9e0bb2054819",
+      "size": 1759
+    },
+    {
+      "path": "RECOVERY-6.15.md",
+      "sha256": "e2f28a4b9f95c0fde166736716b49e6d0de593d43f2bf5ee0ad7fa82686bed51",
+      "size": 1928
+    },
+    {
+      "path": "RECOVERY-6.16.md",
+      "sha256": "9c9ef8305c14dfddfd070c39f6adb9f3ae12f90a442ddfd3d1f77fc8f490e13f",
+      "size": 1336
+    },
+    {
+      "path": "RECOVERY-6.17.md",
+      "sha256": "4c90c5cc6090c59312c01a985c820259e3b3c81bfc916b6f3c46ca819bdf2556",
+      "size": 1263
+    },
+    {
+      "path": "RECOVERY-6.18.md",
+      "sha256": "a90e8815089db5fb92e3fbd20c1a8ce3a2dc02a8e4d37cd3c921077b9f7a3111",
+      "size": 1757
+    },
+    {
+      "path": "RECOVERY-6.19.md",
+      "sha256": "b1339d968e45fa16f295002576de7cc4110265eb030512683f989d10c59fcbcd",
+      "size": 978
+    },
+    {
+      "path": "RECOVERY-6.2.md",
+      "sha256": "ac4304e04069db9b9bc5cf6e612c941ea268168338a07343b732c2f5baed123e",
+      "size": 627
+    },
+    {
+      "path": "RECOVERY-6.20.md",
+      "sha256": "b34e16a0900395b3cd7ad5ff7ea7da0555c576ae6e04ef325040953bc10273d7",
+      "size": 1209
+    },
+    {
+      "path": "RECOVERY-6.21.md",
+      "sha256": "19e9de5f1c53dbb9c1c403d8956f62371d2ff69f808e51b41b4bd5176f5b45e8",
+      "size": 508
+    },
+    {
+      "path": "RECOVERY-6.22.md",
+      "sha256": "c8a45722bdcd1b6e031b06ab989754dce44513b90ea36273e166f749bdcf4bc3",
+      "size": 1167
+    },
+    {
+      "path": "RECOVERY-6.23.md",
+      "sha256": "ad1f81b461076ebf2585bf68c1fd736d78e97cbeaca4eff82883eb6474c8cf4d",
+      "size": 1004
+    },
+    {
+      "path": "RECOVERY-6.24.md",
+      "sha256": "65d041ce37679e4fe4e4cd0685f32436c6fe54bc306f5b1fdcb084790ec532ae",
+      "size": 896
+    },
+    {
+      "path": "RECOVERY-6.25.md",
+      "sha256": "075961465c15a631d00f260e4e5453f27284ab975d8c12ee1c947d59e1d79a4e",
+      "size": 1116
+    },
+    {
+      "path": "RECOVERY-6.26.md",
+      "sha256": "00c84d4bdc47f581f2f0a3ff592709128c2bcdaa46d4bfb6363c80f50ac2c3fd",
+      "size": 1822
+    },
+    {
+      "path": "RECOVERY-6.27.md",
+      "sha256": "3bbcc20967e6c974cf5c841b75f881fe4c1ef2f162e8b5310e7df99f2c6235fa",
+      "size": 537
+    },
+    {
+      "path": "RECOVERY-6.28.md",
+      "sha256": "f37179c5d5bd37c54ba5de9a0e6d68ffc020c35ec0aff2ba9b3646a77743cf2b",
+      "size": 2295
+    },
+    {
+      "path": "RECOVERY-6.29.md",
+      "sha256": "3581a1b2a15318d1a87089c7d4d2d4db8dea1a5067e4f1b785fb8c4f15bf6a57",
+      "size": 690
+    },
+    {
+      "path": "RECOVERY-6.3.md",
+      "sha256": "033c939575fdacfe7fc4edce7eac563820f928ba9d96eda25b53592db3bce456",
+      "size": 543
+    },
+    {
+      "path": "RECOVERY-6.30.md",
+      "sha256": "a2f14a191d300256317668f424e0c67ce19555778361b4ee9838642e061355ac",
+      "size": 826
+    },
+    {
+      "path": "RECOVERY-6.31.md",
+      "sha256": "668ce629721f4c721f314ae32bb4c59858931acf53f1c347a39b2d0a5162d996",
+      "size": 590
+    },
+    {
+      "path": "RECOVERY-6.32.md",
+      "sha256": "54f6a7c3111d6724ce709ddb734cfdf66f6199c0c7b4b24552c7565545faec1f",
+      "size": 669
+    },
+    {
+      "path": "RECOVERY-6.34.md",
+      "sha256": "d6bcf6d3710e93b82683b5f7711cebb07387760136e3462265501abc8d79288d",
+      "size": 818
+    },
+    {
+      "path": "RECOVERY-6.35.md",
+      "sha256": "2fdb16c007ced93c1bb0cf5d37b90ea673ab35e3e699272dc4c78af980c882c0",
+      "size": 564
+    },
+    {
+      "path": "RECOVERY-6.36.md",
+      "sha256": "0669edabb74cd78de8f33b12f68bffdeea94bb3af26a50c75a567ba21dfd2486",
+      "size": 714
+    },
+    {
+      "path": "RECOVERY-6.37.md",
+      "sha256": "57679b35ffa28ed4a5c8c67dccafd5fbc145c77847f3850bfdaff7ce128b888b",
+      "size": 550
+    },
+    {
+      "path": "RECOVERY-6.38.md",
+      "sha256": "fe3839dca319226c010a4218b807e00f645e5b7da01e63047b01df7295cd8cff",
+      "size": 539
+    },
+    {
+      "path": "RECOVERY-6.4.md",
+      "sha256": "75f002fef31776d365b7f4b223286d46edccaec63813e60a44017c08602d5ed6",
+      "size": 1091
+    },
+    {
+      "path": "RECOVERY-6.40.md",
+      "sha256": "be67657b35993269b929f7edb66b20bb6c4cff3b9e7d4817b82d7bc11f6a5735",
+      "size": 519
+    },
+    {
+      "path": "RECOVERY-6.41.md",
+      "sha256": "9fa6e5546c1eb2eac7fbd9c1b72fd59e2510ee31e8838d40beaf989415edcda4",
+      "size": 2858
+    },
+    {
+      "path": "RECOVERY-6.42.md",
+      "sha256": "5145932159af0441798ef7864c4387f9c3cb6100d54b675461f3e2cbbf57158c",
+      "size": 1676
+    },
+    {
+      "path": "RECOVERY-6.43.md",
+      "sha256": "db9fac5e5ba97d161f133daef87698efd520cc9b8537a2add5cf26e163677671",
+      "size": 1154
+    },
+    {
+      "path": "RECOVERY-6.44.md",
+      "sha256": "ce35e31036fe3c70ac258337eb54f865d735248a99c4c656e271e94620ab71a8",
+      "size": 963
+    },
+    {
+      "path": "RECOVERY-6.45.md",
+      "sha256": "5aa2dbe9dfe06c53bd1d802d66959955617356e511385bc90966818cd8ac718f",
+      "size": 656
+    },
+    {
+      "path": "RECOVERY-6.46.md",
+      "sha256": "be5b313960bc5db58a277c9f4ad72c3efddceb90fda521358ad9dcca20c2cdeb",
+      "size": 517
+    },
+    {
+      "path": "RECOVERY-6.5.md",
+      "sha256": "147ff70c81508b08becaf742432248e30cad959202c22312b06b94e276223e9b",
+      "size": 1440
+    },
+    {
+      "path": "RECOVERY-6.51.md",
+      "sha256": "4ee5fa8a3ab18251880f8f969b0a5a71c02658b1de5229a09591c63f904a35f2",
+      "size": 922
+    },
+    {
+      "path": "RECOVERY-6.59.md",
+      "sha256": "5c75e7c47a1fed9f71a84ef706376967ac81843e8da4f14bdb0cf6e183ba8819",
+      "size": 550
+    },
+    {
+      "path": "RECOVERY-6.6.md",
+      "sha256": "3e995bad128b78e5c35d991f58bc54e833e6e05383429e1e36b2332a9ae55ad9",
+      "size": 717
+    },
+    {
+      "path": "RECOVERY-6.60.md",
+      "sha256": "d29d0235b2c66c91ea0a43e54dc0f086395a2b767c8c3769420361d94aca5f89",
+      "size": 368
+    },
+    {
+      "path": "RECOVERY-6.61.md",
+      "sha256": "57b5ca76bfb030aea41b931e810867424eeaa85bbd7a119ca01221abf6d09a3d",
+      "size": 1736
+    },
+    {
+      "path": "RECOVERY-6.62.md",
+      "sha256": "20a774630f567c2a7a07b69c879e14d3f5dd562119e6baccd2a47d12c73f7148",
+      "size": 2284
+    },
+    {
+      "path": "RECOVERY-6.63.md",
+      "sha256": "cfd5a010d5723c952bc517afc6614c50ad217f71facae57b9d53264cc4de78e9",
+      "size": 651
+    },
+    {
+      "path": "RECOVERY-6.64.md",
+      "sha256": "0422bf19d4c522b69f9ca2d2ec708274e881edea314aa2c5c0009692ff55c40c",
+      "size": 959
+    },
+    {
+      "path": "RECOVERY-6.65.md",
+      "sha256": "3b489cabfbb4e914b0588a40ee99210e7cf69b63645fb03dab0106ecae92f78f",
+      "size": 1559
+    },
+    {
+      "path": "RECOVERY-6.66.md",
+      "sha256": "6f587eac844d51118424488e0e70dcdae208ecad8507b3e17e3f1369ff54e632",
+      "size": 762
+    },
+    {
+      "path": "RECOVERY-6.67.md",
+      "sha256": "b7c505bd587870404e4c176d649d0192bdce63bae0ceeb3f14adc846b3bdabbd",
+      "size": 679
+    },
+    {
+      "path": "RECOVERY-6.68.md",
+      "sha256": "090d85210e15b9155f98db5fca3638c4f8dc8e89fdf4b0b2a1a88f8e8a094735",
+      "size": 1767
+    },
+    {
+      "path": "RECOVERY-6.69.md",
+      "sha256": "1ee764dad4f42d5b9824e314a91798f8a759ac4bf72c2dad80f34ec247781aa6",
+      "size": 936
+    },
+    {
+      "path": "RECOVERY-6.7.md",
+      "sha256": "9da05669bd42981f2c3043ebced127ef06a3113f9bf98981944a860fe7e8582c",
+      "size": 1027
+    },
+    {
+      "path": "RECOVERY-6.70.md",
+      "sha256": "0053a1da8e7eefb45227cc9eb455b106cd98ec05e98a53b313e6813f87b6f22a",
+      "size": 2355
+    },
+    {
+      "path": "RECOVERY-6.71.md",
+      "sha256": "28d8f53162a1fb061eda6dafb2478d7e0ff87ff493ab3d6a3d0ebd77a7a335a4",
+      "size": 3042
+    },
+    {
+      "path": "RECOVERY-6.72.md",
+      "sha256": "339441e2972c74a1531793830434c01629650f724b80a3357b396ac0247859c0",
+      "size": 2575
+    },
+    {
+      "path": "RECOVERY-6.8.md",
+      "sha256": "ec98148b8ce2299a1acb42d1e8e9ef3fe2bc218975d3d94d010ca44ef7703bb6",
+      "size": 1172
+    },
+    {
+      "path": "RECOVERY-6.83.md",
+      "sha256": "e370b116bc81263343e50e64f24a4a664b4730dff584cb10098d20bc31e7b49b",
+      "size": 1575
+    },
+    {
+      "path": "RECOVERY-6.9.md",
+      "sha256": "5e6ba794fb80c9ef0c09b35df4b2d15267911dee303ce499b203b17008b0eeda",
+      "size": 1145
+    },
+    {
+      "path": "RELEASE-6.85.md",
+      "sha256": "ab2d86dbc0cfbeec4f629d366ccc46a9eb7de19bf04e74ad75fbeb434d96d2a9",
+      "size": 2307
+    },
+    {
+      "path": "RELEASE-6.86.md",
+      "sha256": "e3bec7668d6e2052f6ea93b3fb6b59ebcba1fe01e5aa3f279426c881ccb97fdd",
+      "size": 1770
+    },
+    {
+      "path": "RELEASE-6.87.md",
+      "sha256": "ba46c5c637a82524168a4193dda10d8361171a2a391defdff7882aa990671d26",
+      "size": 869
+    },
+    {
+      "path": "RELEASE-6.88.md",
+      "sha256": "faa4d3a15d39f18ecc2b45056e49a298e1d39ca2a34d5a67d217b6146d57f08b",
+      "size": 735
+    },
+    {
+      "path": "RELEASE-6.89.md",
+      "sha256": "6032599a6c2b96f9b419b45e4b367831a7d599723211ce8437b876e396bb0839",
+      "size": 2788
+    },
+    {
+      "path": "RELEASE-6.90.md",
+      "sha256": "af55cefb2ba71cde10e4c6db2ff446a29331b4e7a250b3b98f4092bdc8d6977c",
+      "size": 4218
+    },
+    {
+      "path": "RELEASE-6.91.md",
+      "sha256": "f04a1b66c0ee1f7052d9fad36a5c6027aad0ce6af088edabd689a83d1cfe0b8a",
+      "size": 846
+    },
+    {
+      "path": "RELEASE-6.92.md",
+      "sha256": "ba862b53f1e46785a24e71c749b780962e570bda49ce7da55d3ddca72a0dcf23",
+      "size": 920
+    },
+    {
+      "path": "RELEASE-6.93.md",
+      "sha256": "fa00c7d8382cdf02cdc17c8d114d4b39dac60f68442ba3937c182821e7f01de4",
+      "size": 837
+    },
+    {
+      "path": "RELEASE-6.94.md",
+      "sha256": "a63688b2c0fcf1746b0adb9aa94d6dce851d23918cf54cb385f17771590a3407",
+      "size": 866
+    },
+    {
+      "path": "RELEASE-6.95.md",
+      "sha256": "8e9ce9e3327187cb17f6fca6ef161f1f73b3de83ed52cfd753bdcf5a106c8dd0",
+      "size": 844
+    },
+    {
+      "path": "RELEASE-6.96.md",
+      "sha256": "3acd75a3bce7a619487ea9aa8d07f6c27c28773c5ef55ec64a5b50599d0211ef",
+      "size": 829
+    },
+    {
+      "path": "RELEASE-6.97.md",
+      "sha256": "7783f0679c79e39e8b0b84853abe184094eaf508c404304b615607c1540ef359",
+      "size": 844
+    },
+    {
+      "path": "RELEASE-6.98.md",
+      "sha256": "50001c9c3a097d56883bc3c524f4a5d5e13d25208f4fdab5acdf8ee7548f8198",
+      "size": 885
+    },
+    {
+      "path": "RELEASE-6.99.md",
+      "sha256": "6f0e6a99d07cd62a5a322fb380cae36405d47d39cd5fdc8535d8ab6db56f5ff6",
+      "size": 850
+    },
+    {
+      "path": "RELEASE-7.0-REV5R3.md",
+      "sha256": "3c469ba278b2629c0258ce7e64322718910d8cce5f42596df7a5fbceb37c7e49",
+      "size": 733
+    },
+    {
+      "path": "RELEASE-7.0-REV5R4.md",
+      "sha256": "a830b9c014f87374a59c7a3cd844780db8fdacfff127d094348d2e4d53888717",
+      "size": 763
+    },
+    {
+      "path": "RELEASE-7.0-REV5R5.md",
+      "sha256": "1540cde0cf366b54e129bef00ac9ed0de947d20757d6c85e38579baf1f473b4b",
+      "size": 1410
+    },
+    {
+      "path": "RELEASE-7.0-REV5R7.md",
+      "sha256": "41cca3fe1b84020a7d08619ba525a531e90458b430e48bbd4587fcb6b9e5158c",
+      "size": 767
+    },
+    {
+      "path": "RELEASE-7.0-REV5R8.md",
+      "sha256": "aacdc6c5a96fa53bbd22e1401e6147b47e0bb20d3512b11295055b8216977556",
+      "size": 673
+    },
+    {
+      "path": "RELEASE-7.0-REV5R9.md",
+      "sha256": "a4d590e41c87811e4e52052200b26d42e48dcad545ba81b9e5ec183759ec5952",
+      "size": 697
+    },
+    {
+      "path": "RELEASE-7.0.md",
+      "sha256": "0d8dedd9e3d952d8a2ad084ba34568844a1d0ab50bd80f46c12e3aa1580f12fc",
+      "size": 2709
+    },
+    {
+      "path": "ROADMAP.md",
+      "sha256": "c989b41fcafc5ac7bc39bdd76e585474b03da68054cfc6dd7a9d0a32c868e1bb",
+      "size": 8970
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "afe99a75f6051e04388dfee96b67c9cda54eee470d8010cebc80a90170d0528c",
+      "size": 4379
+    },
+    {
+      "path": "VERSION",
+      "sha256": "e6589be4550ac0aed9bbdf1f896b39de2c2336c86bb9214120005d4770a53ad4",
+      "size": 14
+    },
+    {
+      "path": "agent/cmd/privora-agent/main.go",
+      "sha256": "b1e3c362e2cbac74c6594f6a7cefec1c6e1ec6e7ff33d86ac39de06ddcb5f420",
+      "size": 4397
+    },
+    {
+      "path": "agent/cmd/privora-host-probe/main.go",
+      "sha256": "612dfbeac47d998ebd899dc8e5c505cb1238afbcf1c6dcfe3956832f3351d7c7",
+      "size": 398
+    },
+    {
+      "path": "agent/go.mod",
+      "sha256": "f91a1fcb704d9f36d84a768bec4d7ae74ccd838066244fdc676a8c1d5755f3ca",
+      "size": 42
+    },
+    {
+      "path": "agent/internal/api/account_termination.go",
+      "sha256": "afa68f8a1c17ad43b5c9f03f8158635819beeec3dc8e5645fa9990e5cc08cd2b",
+      "size": 11785
+    },
+    {
+      "path": "agent/internal/api/account_termination_test.go",
+      "sha256": "5cc8b309045a1d91117baf44e3b09acd4a173e78ba72f961e30baca0e1e130d8",
+      "size": 3624
+    },
+    {
+      "path": "agent/internal/api/server.go",
+      "sha256": "3108d6215d4fe5a585e333b8f628e3b5f68573a94e7e9278388a70e14dcd31a5",
+      "size": 191316
+    },
+    {
+      "path": "agent/internal/api/server_platform.go",
+      "sha256": "cf23d11a07144c0ce8d727bd4d9dea30f03eec63c4808307b70e9ee1ca39b69f",
+      "size": 48862
+    },
+    {
+      "path": "agent/internal/api/server_platform_test.go",
+      "sha256": "c180cccd72306d96cc0f220d4d7ef14b1605ad0d69aed3b5c13d54bad3d86a20",
+      "size": 12739
+    },
+    {
+      "path": "agent/internal/api/server_test.go",
+      "sha256": "8b505d4d756e999e9ec50436a5d54686ed893e9fac89b48d45d1b1ef71411c6f",
+      "size": 32823
+    },
+    {
+      "path": "agent/internal/api/server_v7.go",
+      "sha256": "9ab5dfebb1c4a4e1a8f628e97673e77523e5f8612be56be298ade94ce50f7e96",
+      "size": 34266
+    },
+    {
+      "path": "agent/internal/api/server_v7_test.go",
+      "sha256": "a1a6dd9694e0eda6556be758afb205fd5257b4639bac85ecab6a2906f3dbfe70",
+      "size": 6665
+    },
+    {
+      "path": "agent/internal/api/software_jobs.go",
+      "sha256": "a3e77d9e8486548929a07e89ad1ae33aa6a34c9cc588e8b704735e1152836db7",
+      "size": 9260
+    },
+    {
+      "path": "agent/internal/api/software_jobs_test.go",
+      "sha256": "f1332b7bf859b50cd29f9a65d0978e36e042b3b052fd16151476b247b65fa31a",
+      "size": 1231
+    },
+    {
+      "path": "agent/internal/api/subdomain_document_root_test.go",
+      "sha256": "e03f13e9f92f0566f8a3a8d0aa9efd0993e0c820ef164783dd35f972648f8739",
+      "size": 1788
+    },
+    {
+      "path": "agent/internal/api/version.go",
+      "sha256": "0c9843384c911c448fd76497c859207e3de9409e64983ce5ffb560c4e3f08083",
+      "size": 52
+    },
+    {
+      "path": "agent/internal/audit/audit.go",
+      "sha256": "d6f4ae2eeee62e7ac8654e0fc97fffa531b89bd9401defc37d4893fd13c2a4b5",
+      "size": 3683
+    },
+    {
+      "path": "agent/internal/audit/audit_test.go",
+      "sha256": "55f603dfec949c9a2f036ba2f28979943fe1c0348a3fb82e4c9d9f8886a9d802",
+      "size": 706
+    },
+    {
+      "path": "agent/internal/billingledger/ledger.go",
+      "sha256": "2dc54f42ab06eb124df0517f80cdf367ad3e2dc8d5545557ed4910c9c6934050",
+      "size": 4596
+    },
+    {
+      "path": "agent/internal/billingledger/ledger_test.go",
+      "sha256": "222a0dc20c34089c514400ff6a85a0facd6c6deb1a0754d3c29228fa823ab30d",
+      "size": 1730
+    },
+    {
+      "path": "agent/internal/cloudcore/cloud.go",
+      "sha256": "140c8d87f5a08439549f1efbff561a6b9b3df0a6a66046ead412394e62264ddf",
+      "size": 2630
+    },
+    {
+      "path": "agent/internal/cloudcore/cloud_test.go",
+      "sha256": "475be91913dc38ef0886e0c92de96c7666e053815c79b8660c4d8f4be47e45d6",
+      "size": 761
+    },
+    {
+      "path": "agent/internal/cloudcore/coordinator.go",
+      "sha256": "5562fcea92fcb1c5b89c44ef5fef70aae954fac48900947d097e7f940862953f",
+      "size": 6086
+    },
+    {
+      "path": "agent/internal/cloudcore/coordinator_test.go",
+      "sha256": "5931dcc26ebd1de42e017b355db728ceeb29ecc6dffd8e96122dfcc1446b5a59",
+      "size": 2773
+    },
+    {
+      "path": "agent/internal/config/config.go",
+      "sha256": "6a615209c8f4a2e6f1b97cb392b3e1bd8aa3f66cb5f4b3c49d24932d9ef48e0c",
+      "size": 1211
+    },
+    {
+      "path": "agent/internal/fabriccore/controller.go",
+      "sha256": "839e39a09ec4ce1bf795397d7b6ab2276ac3fb6229a33c1936f5cdeb216680eb",
+      "size": 4689
+    },
+    {
+      "path": "agent/internal/fabriccore/controller_test.go",
+      "sha256": "7f529be9e64114ef8b056b22815aa6259839db4044ddc9e22b034b5cae50c46a",
+      "size": 2592
+    },
+    {
+      "path": "agent/internal/fabriccore/fabric.go",
+      "sha256": "68014367f27d194698cb8fecffe4454199a79cbff9202d1fb40328d21d2fdfae",
+      "size": 2186
+    },
+    {
+      "path": "agent/internal/fabriccore/fabric_test.go",
+      "sha256": "6051f4ee08cdc8aa31659ac287cfec248b4ea3c7c1e7c0902f2014b069cd2a70",
+      "size": 887
+    },
+    {
+      "path": "agent/internal/fabriccore/safety.go",
+      "sha256": "95aac969d8aee2bf04dcd9192b04e7f6e729b24c3144f00ea44aa9332b22dfae",
+      "size": 3592
+    },
+    {
+      "path": "agent/internal/fabriccore/safety_test.go",
+      "sha256": "7aa8ae31f9649bbd2a336d64ed4f3ef5cfb1f6cb186385b2b622942c91f38dc2",
+      "size": 1780
+    },
+    {
+      "path": "agent/internal/fleetmtls/fleet.go",
+      "sha256": "85ba79b7e7be5be16451dc21ca58ea5dfdc2249b1951d03dde354cc2b6a08eb4",
+      "size": 7493
+    },
+    {
+      "path": "agent/internal/fleetmtls/fleet_test.go",
+      "sha256": "2f755efb0fd289a6570f4568eb0f0e701a20ecd9ac81d3228fa8c9244b99c8e2",
+      "size": 2971
+    },
+    {
+      "path": "agent/internal/fleetmtls/registry.go",
+      "sha256": "4b9b577b33342ddbd89dd033e181cd05159f41236d69eeccd17aa71ac11ef463",
+      "size": 6816
+    },
+    {
+      "path": "agent/internal/fleetmtls/registry_test.go",
+      "sha256": "6b627bf7175d4e6f24375b5b4fd132266bede69879c96c4b1b98b76875c75e02",
+      "size": 2287
+    },
+    {
+      "path": "agent/internal/hostadapter/account_analytics.go",
+      "sha256": "07dfb31f6b46d0031051963cbeef78f32f8b03d3da9064dc3606ebc2fd67edab",
+      "size": 10648
+    },
+    {
+      "path": "agent/internal/hostadapter/account_analytics_test.go",
+      "sha256": "8eaa7c84253f0791f650e61363ce323ad863be101e2e1004c71e39a44c26d2af",
+      "size": 2080
+    },
+    {
+      "path": "agent/internal/hostadapter/acme.go",
+      "sha256": "66267ca6dbd819fe946893da256d9f00108c78919d42ee39d65896199e80bf13",
+      "size": 17302
+    },
+    {
+      "path": "agent/internal/hostadapter/acme_test.go",
+      "sha256": "7bbfdf78007f046e69a6912fe1c8c23cb6c208942fe0ee0d832145eed084a016",
+      "size": 12753
+    },
+    {
+      "path": "agent/internal/hostadapter/adapter.go",
+      "sha256": "ff33d01da1a053f6e6a157fcba8374bf403ee734345f43aadda2dad004580273",
+      "size": 24731
+    },
+    {
+      "path": "agent/internal/hostadapter/adapter_test.go",
+      "sha256": "e799bf5333590971e3e14d4feff8b78df5ae546f88159d19581799279ef599de",
+      "size": 7609
+    },
+    {
+      "path": "agent/internal/hostadapter/appinstaller.go",
+      "sha256": "e17a29bf11141a95d2640a1ea20659f3a3c0396dbf6440c5e73e49593e1e2a99",
+      "size": 25361
+    },
+    {
+      "path": "agent/internal/hostadapter/appinstaller_test.go",
+      "sha256": "101a5f0a190ccb43cf3a3cb018fca6945445f3a038baf109628cc5cdd835edf0",
+      "size": 10555
+    },
+    {
+      "path": "agent/internal/hostadapter/certificate_admin.go",
+      "sha256": "0055d8c07f46927961c8d82db9fb5780c41903913ce0386d650352a7e1f64ec9",
+      "size": 8423
+    },
+    {
+      "path": "agent/internal/hostadapter/cgroup.go",
+      "sha256": "31a25283d3a27fe97f0b9e13a4abdf0f9efa0861838c9e7fad440805a5e01b6a",
+      "size": 2890
+    },
+    {
+      "path": "agent/internal/hostadapter/cgroup_test.go",
+      "sha256": "27229cf04d38ca4afe7288b0c625af1af164b7b034736b0a6e476f780c1cb3a1",
+      "size": 1282
+    },
+    {
+      "path": "agent/internal/hostadapter/components.go",
+      "sha256": "753737d62c25abd5b199cd46801be25715db2e9f5beeb5ecf67ee10cfce90cb6",
+      "size": 26906
+    },
+    {
+      "path": "agent/internal/hostadapter/components_test.go",
+      "sha256": "f24087e871b0fa2b221969ef81130297c3c49ead7f61c9c526f038828fe48098",
+      "size": 6589
+    },
+    {
+      "path": "agent/internal/hostadapter/configfiles.go",
+      "sha256": "29df8861e16b749e571526c2b7d320559d9f352eb5e69293cc8333045a10a9b1",
+      "size": 8732
+    },
+    {
+      "path": "agent/internal/hostadapter/cpanel.go",
+      "sha256": "00d3c7c05c22238b45c7705c847e34782af84059680cde4e7e2bf35f84035109",
+      "size": 3752
+    },
+    {
+      "path": "agent/internal/hostadapter/cpanel_test.go",
+      "sha256": "55af058ae2954556aa3445e3813c62471c76239722fbd7f825a054ff659d90aa",
+      "size": 2098
+    },
+    {
+      "path": "agent/internal/hostadapter/database.go",
+      "sha256": "cea5bd9f98f3f5097761e0007710a295bbd5bf8d19210e198eb07fb5e10dcb14",
+      "size": 13121
+    },
+    {
+      "path": "agent/internal/hostadapter/database_admin.go",
+      "sha256": "d2e9ef7a7552f9efad455509c18fea0e9738ce80753382c09fccb619776e76b1",
+      "size": 10037
+    },
+    {
+      "path": "agent/internal/hostadapter/database_test.go",
+      "sha256": "57756613ff390dcd204849d7a65c41b750591fedd358d6af5777039740b4f0ba",
+      "size": 4173
+    },
+    {
+      "path": "agent/internal/hostadapter/dns.go",
+      "sha256": "ed14533e4ccf12ebf3b41369714aa5747c1c4e89e82006a4990de180b1c956c9",
+      "size": 21325
+    },
+    {
+      "path": "agent/internal/hostadapter/dns_test.go",
+      "sha256": "7dcfb30113836a8305b7fa1646cba4da34e4767022de21c688c29d8957da7bea",
+      "size": 5926
+    },
+    {
+      "path": "agent/internal/hostadapter/filemanager.go",
+      "sha256": "2a0cfe6c9312fcb74b21e4f17e208d562a0badc9ae8fb74e143bafc4253e20c6",
+      "size": 18841
+    },
+    {
+      "path": "agent/internal/hostadapter/filemanager_test.go",
+      "sha256": "4c32c17e17cd48ef0dec1dadabfc0156f27ec15489ee47a1c3fdbb60a70b01d7",
+      "size": 4170
+    },
+    {
+      "path": "agent/internal/hostadapter/files.go",
+      "sha256": "ccbe5bf73c4ff42af06295df9b1ba24eb3a5d137c16389abbb2bbe7888ef0a48",
+      "size": 5773
+    },
+    {
+      "path": "agent/internal/hostadapter/files_test.go",
+      "sha256": "602ed15f628d28f226130322444446d2bdb73bb47d3ca8f0cc8827873bc63c83",
+      "size": 1563
+    },
+    {
+      "path": "agent/internal/hostadapter/firewall.go",
+      "sha256": "9fa3542f4f0ffb95145f66140865e6db8f52c4bf8ab1fb2875dd83ce0b7a096a",
+      "size": 4377
+    },
+    {
+      "path": "agent/internal/hostadapter/firewall_test.go",
+      "sha256": "2e30708160c7cb2ecda9b7d257a4da6c3294d3b3ce90f32e463e21a5f0ff8ebd",
+      "size": 2180
+    },
+    {
+      "path": "agent/internal/hostadapter/inventory.go",
+      "sha256": "d5c1ff2f8e44ec36bf94df2204416ddc61c1e35852f32357e28e3eea4a419fe0",
+      "size": 37776
+    },
+    {
+      "path": "agent/internal/hostadapter/inventory_test.go",
+      "sha256": "d4ff8b4de0dbab36f1a78534cb3692948f7f6e7b49a51fe6ff712ba6b60146d8",
+      "size": 18587
+    },
+    {
+      "path": "agent/internal/hostadapter/isolated_exec.go",
+      "sha256": "0409a9d7cca3ac943ad5f90613debd87ef3e0ed92ab39a6c57dc4fd379da2842",
+      "size": 7390
+    },
+    {
+      "path": "agent/internal/hostadapter/isolated_exec_test.go",
+      "sha256": "d7e97b2c2af4eb997e3f3a8c50889356c53def8cd729a66b1685840ff23a0025",
+      "size": 3750
+    },
+    {
+      "path": "agent/internal/hostadapter/mail.go",
+      "sha256": "0f9e0f9dc875169d0d225e789cbe69553571bbaf0b6dfe75c7285eb7eb0a1de4",
+      "size": 16249
+    },
+    {
+      "path": "agent/internal/hostadapter/mail_auth.go",
+      "sha256": "80a59ed3d8ffb62903403aa8e5be5c8254c1ff03f43b88a572dae331c2bbdb67",
+      "size": 13276
+    },
+    {
+      "path": "agent/internal/hostadapter/mail_auth_test.go",
+      "sha256": "2c9b0bba9f7a41820d7bbdaa489a692f7246cd548ad50ff5271492d5f8ea7fa5",
+      "size": 5568
+    },
+    {
+      "path": "agent/internal/hostadapter/mail_secure.go",
+      "sha256": "136162987f485b88034446ac212c7c2660e6e97065d2343c62429e5f9dee4847",
+      "size": 38946
+    },
+    {
+      "path": "agent/internal/hostadapter/mail_secure_test.go",
+      "sha256": "0993cc0109905d3ba543f8e3e4fd40fd4511d58a2d825146a5053f4aee45d39e",
+      "size": 11866
+    },
+    {
+      "path": "agent/internal/hostadapter/mail_test.go",
+      "sha256": "d6240e33ea06ac1855562d3ebf6d538345e83115aaabc5e4225196f7d1b0584f",
+      "size": 6625
+    },
+    {
+      "path": "agent/internal/hostadapter/nameserver_status.go",
+      "sha256": "a04f56d20b56f26f2b93f59a2019b8cd06729f45aae39b4215049990ddb35ec6",
+      "size": 11856
+    },
+    {
+      "path": "agent/internal/hostadapter/nameserver_status_test.go",
+      "sha256": "1e9a28dc17e091cbfe774e2c127d08d1452720ca1948ea0ef80788c221486dfc",
+      "size": 6709
+    },
+    {
+      "path": "agent/internal/hostadapter/php.go",
+      "sha256": "fbda3851a6e0fea61858b4104164fd9fa2181fcede1bbb82ee0fc88c329d5920",
+      "size": 2340
+    },
+    {
+      "path": "agent/internal/hostadapter/provision.go",
+      "sha256": "45081f52902d30eb02f7c41d715d90e057d3f47d3785fd01e04653adfee6ea8f",
+      "size": 19634
+    },
+    {
+      "path": "agent/internal/hostadapter/provision_document_root_test.go",
+      "sha256": "bc0b8cc0f505f83ec4ba548545204e5b7d3e2863659c558e29a8f71d3810ddc2",
+      "size": 5877
+    },
+    {
+      "path": "agent/internal/hostadapter/quota.go",
+      "sha256": "133b26b02ffec2f82de5b2ec4997735d50d4061061ea3c05fe7f0b1cc9757250",
+      "size": 1993
+    },
+    {
+      "path": "agent/internal/hostadapter/quota_test.go",
+      "sha256": "66b38ef323362804c47111f8c6688468197d25d6c87b1398fdbb689e5a4814c6",
+      "size": 1714
+    },
+    {
+      "path": "agent/internal/hostadapter/registrar.go",
+      "sha256": "805e11cd75fbc6a71205c62be0cdef65ffba2f45ccb0149b110b967a0e779a3d",
+      "size": 3498
+    },
+    {
+      "path": "agent/internal/hostadapter/registrar_config.go",
+      "sha256": "cf8b555e3354ff46d4ac618c89c2a172f7f7b2f242fb1dbc27f7a5f74202b150",
+      "size": 3056
+    },
+    {
+      "path": "agent/internal/hostadapter/registrar_config_test.go",
+      "sha256": "5ef13c3bd509f60477d09014502959f8904c376faa46403063a4045c343997fb",
+      "size": 1284
+    },
+    {
+      "path": "agent/internal/hostadapter/registrar_test.go",
+      "sha256": "a774fa3903e564f02f6d0ddd8c2cd5d0b7deb75c4078269bea2774fbd5130b5b",
+      "size": 1516
+    },
+    {
+      "path": "agent/internal/hostadapter/resources.go",
+      "sha256": "647ba6956cfec3eb0cb002e15a9d73e19490dc7b66b599f46e09f001a31968b0",
+      "size": 15933
+    },
+    {
+      "path": "agent/internal/hostadapter/resources_test.go",
+      "sha256": "e7b37680bcc91a4b5ee8bfa4fb518675cff823538408cc8390251ab3c0ccb1ea",
+      "size": 4936
+    },
+    {
+      "path": "agent/internal/hostadapter/sftp.go",
+      "sha256": "dde30d388b1e95689f210c707acb6f2b7ee03a5efca9fa62c58c0a9eb5f0bf9d",
+      "size": 3583
+    },
+    {
+      "path": "agent/internal/hostadapter/sftp_test.go",
+      "sha256": "c4701b1426496ab0b3d9986664a0e3c6d070cb40be70f6e7c54628c7da536e1c",
+      "size": 1499
+    },
+    {
+      "path": "agent/internal/hostadapter/software_center.go",
+      "sha256": "d66ba87ee9e72d3e488f63fe974262baba36a2d296a4c648f0e977e1c2216f57",
+      "size": 17819
+    },
+    {
+      "path": "agent/internal/hostadapter/software_center_test.go",
+      "sha256": "656aef7021040a12f5eb085898f7dbc6b6a064c5a797aba9ee2a92a2c17360dc",
+      "size": 1317
+    },
+    {
+      "path": "agent/internal/hostadapter/updater.go",
+      "sha256": "97e9e60d7a1980e34bad3147b92ceed924757791e26610bc955c4b279957abfa",
+      "size": 17238
+    },
+    {
+      "path": "agent/internal/hostadapter/updater_archive_test.go",
+      "sha256": "fe9ca98dd7b7e73a2a9582193033c76db11b3ccadd0383760ce0e6945dc6842f",
+      "size": 1089
+    },
+    {
+      "path": "agent/internal/hostadapter/updater_test.go",
+      "sha256": "df1a92c1b6a0ca836ea60c6e6c6c64ab5ac19ddefc360250988397c5bc1f084a",
+      "size": 1302
+    },
+    {
+      "path": "agent/internal/hostadapter/v7_mail_backup_monitor.go",
+      "sha256": "2e06028adbd7affa0d85554932f8d85fb289c325cd770e846b8b19e475563398",
+      "size": 20001
+    },
+    {
+      "path": "agent/internal/hostadapter/v7_site_db_app_dns.go",
+      "sha256": "bd77ab63d3d6c629b17e89df195e9ad9f15a787c30430c813e3e6c1d52e0b738",
+      "size": 14387
+    },
+    {
+      "path": "agent/internal/hostadapter/webmail.go",
+      "sha256": "fd447a1a62f6227e3c0da5a44d1f6d765c081a4fd85cf5deca65540629700972",
+      "size": 4078
+    },
+    {
+      "path": "agent/internal/hosting/adoption_test.go",
+      "sha256": "108616e8fcb7a6cea7a183460d62d93c5cb1900ecf5c9173429f4d03679780c2",
+      "size": 790
+    },
+    {
+      "path": "agent/internal/hosting/hosting.go",
+      "sha256": "a1d7a1f97f969edc718788e5c6367f7bc7651505d48e512c96b285ce13e80a1b",
+      "size": 22438
+    },
+    {
+      "path": "agent/internal/hosting/subdomain_document_root_test.go",
+      "sha256": "69cf194e208b9d941a5f54de11565abd1402861a7173bcce7604d318c643dedb",
+      "size": 1369
+    },
+    {
+      "path": "agent/internal/hostops/planner.go",
+      "sha256": "48778d0e310d59dd41a1d146385cc4779a86863b4895c4d7fb2997a325c736a7",
+      "size": 6422
+    },
+    {
+      "path": "agent/internal/hostops/planner_test.go",
+      "sha256": "baa3fbfcb5de2537f57443b1ef40909560f72a2a33e880162a09bda374d6bcfb",
+      "size": 1084
+    },
+    {
+      "path": "agent/internal/orderflow/order.go",
+      "sha256": "e28cc3141267965499637cf98cf405553446651d9fc5dc60ab096fbbc9dbe732",
+      "size": 4270
+    },
+    {
+      "path": "agent/internal/orderflow/order_test.go",
+      "sha256": "d856631854cc2d2c384a575fa34b24c60017aa1dde5855d814bba28bde89cf20",
+      "size": 2322
+    },
+    {
+      "path": "agent/internal/platform/platform.go",
+      "sha256": "6fef78cb2a7b43a1b15846b314e4b881a32baf5630a7ebed0118821b4813c05c",
+      "size": 78168
+    },
+    {
+      "path": "agent/internal/platform/v7.go",
+      "sha256": "932a74bc56292a6f00f3c1287c0d46b14b868cd233800619eaab54c3a0d81fe4",
+      "size": 15518
+    },
+    {
+      "path": "agent/internal/resources/nameservers_test.go",
+      "sha256": "751a833e226cf86460d9b518a83f9f54876e9a4bdeba0220648bb5f372fd014d",
+      "size": 1847
+    },
+    {
+      "path": "agent/internal/resources/resources.go",
+      "sha256": "28382a42d9bdca18aab443b491b3ca5ba825889af1f3c24894a47fe369c99a8f",
+      "size": 41717
+    },
+    {
+      "path": "agent/internal/runner/runner.go",
+      "sha256": "49b691324e4460720e81a022c9136c1b17935f52a2a0f7e80929f895d5bfc8f7",
+      "size": 1442
+    },
+    {
+      "path": "agent/internal/secretvault/vault.go",
+      "sha256": "6b5acab6db62923ecd3bdee6c8ff85cfcf2b44f419833d9bda538b68cfe09eea",
+      "size": 4370
+    },
+    {
+      "path": "agent/internal/secretvault/vault_test.go",
+      "sha256": "cf34e16b2fe01296967ea86af90f318f5f04245d36bdd43077c002e0ecd06867",
+      "size": 1612
+    },
+    {
+      "path": "agent/internal/system/system.go",
+      "sha256": "0626745b42e14ed3e4ab983fdd2b82cfeebbb58d61e9bb3f1c0e04e4ffadc12a",
+      "size": 3039
+    },
+    {
+      "path": "agent/internal/updater/updater.go",
+      "sha256": "2049dffbd84da4a195ae4666eac3873e4e900be348d60f378d0c6dd4d349eb99",
+      "size": 7594
+    },
+    {
+      "path": "agent/internal/updater/updater_test.go",
+      "sha256": "40d25b8a1227e7725072ced31673086c19773b77fbeacf2ec2abe88b75b5a8da",
+      "size": 3154
+    },
+    {
+      "path": "agent/privora-panel-agent.service",
+      "sha256": "19abfbfe23488e3b3f289993b48be4586d6da2ec176dc40400d6870a0ee086b8",
+      "size": 1055
+    },
+    {
+      "path": "apps-releases.example.json",
+      "sha256": "4caa5061a56b9931564353b0730ea8e4073cc094a250fcb8d8bbab970a497b2b",
+      "size": 773
+    },
+    {
+      "path": "cli/privora",
+      "sha256": "e4ff3cdc6b296f042b3c95964bc9e18bb8316adde94d7ed75a2975d7dd1fa57f",
+      "size": 2885
+    },
+    {
+      "path": "dist/privora-agent",
+      "sha256": "5d38e03a6d6a0640b43680192ff90a5de3e29246efc8b11ac7b4ac697929e54a",
+      "size": 9285784
+    },
+    {
+      "path": "dist/privora-agent.sha256",
+      "sha256": "f57e3d7f159206d798a7362a383a75a2f41f89fb28d48fd8c7f4cf2d5f5d3d77",
+      "size": 80
+    },
+    {
+      "path": "dist/privora-api-cert.test",
+      "sha256": "9d674a6d2c18733b7f1c303118030a1afe226958fbb9699e4e1d0f951c61d995",
+      "size": 13605476
+    },
+    {
+      "path": "dist/privora-api-cert.test.sha256",
+      "sha256": "8c5f39dfab58041651b5311cfc4f837700935d861f2d76d9ee6c19d052c9cfb3",
+      "size": 88
+    },
+    {
+      "path": "dist/privora-hostadapter-cert.test",
+      "sha256": "9746e455bac06fd86fe489ecf0e024420d64a777ce74c42154bfce0f986f0671",
+      "size": 12100029
+    },
+    {
+      "path": "dist/privora-hostadapter-cert.test.sha256",
+      "sha256": "33a66036e7e644fc045c0cd1aafa5a1a2bd672bad7f3109ccbf36472b709fd88",
+      "size": 96
+    },
+    {
+      "path": "docs/API.md",
+      "sha256": "f33e5770f05fbc86e143835deb3315a38549b4e8ee7fa7379b1e72426a415330",
+      "size": 3215
+    },
+    {
+      "path": "docs/ARCHITECTURE-5.0.md",
+      "sha256": "6fdafdd56a9c9ccec11d88cf350c1235f96ac91a070a427eafe5a203d81f7bbe",
+      "size": 1800
+    },
+    {
+      "path": "docs/CURATED-APP-TRUST.md",
+      "sha256": "47c853ed43bc98c9a4825d3c3b5f42eb0971ca78e1493ffb02da1698da90690f",
+      "size": 1822
+    },
+    {
+      "path": "docs/DUAL-SHELL-UX.md",
+      "sha256": "f9d642c560b1155d6ab95b81606d20caa8744d85eff39c71f3f8ccb187d348f8",
+      "size": 1466
+    },
+    {
+      "path": "docs/EXTERNAL-API.md",
+      "sha256": "f6e32fb2bb8f817b095c1b9f3972420eae2fdf1d76ebcb65d4bb813e624ebc86",
+      "size": 937
+    },
+    {
+      "path": "docs/FULL-STACK-CERTIFICATION.md",
+      "sha256": "e9e5c7dcd58466358f05ebc66def3d8d36267467d239ebf1385d52cb5f199a0c",
+      "size": 1351
+    },
+    {
+      "path": "docs/MILESTONE-MATRIX.md",
+      "sha256": "e692a1ba7ec1a53802565a54520c82b389e31da71351a8836c0abe91f8097c1b",
+      "size": 1578
+    },
+    {
+      "path": "docs/ONE-COMMAND-INSTALL.md",
+      "sha256": "b3cd846d7e93e4a83ec33037b52f5abb82f92734be618faf5159107fcd44db5e",
+      "size": 2653
+    },
+    {
+      "path": "docs/PRODUCTION-GATES.md",
+      "sha256": "e0bbe995d9014c574d4d0d8e9de9beaefcfaaa1b29278c73a8c1370f07589129",
+      "size": 3120
+    },
+    {
+      "path": "docs/PRODUCTION-KEY-CEREMONY.md",
+      "sha256": "ebf04d05aeee3e53bb7a755cb5eebc1e2d9f7183782cb67ab29d85a94947db37",
+      "size": 858
+    },
+    {
+      "path": "docs/RELEASE-DELIVERY.md",
+      "sha256": "3d52c7daf19f774a9f2aa3e8d4558a40415a79de1527538e862400d2703120ab",
+      "size": 1562
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "sha256": "36f0c883064d8f7e4f1387f838074b0cfdd014e1050493658188e93c08c644e5",
+      "size": 911
+    },
+    {
+      "path": "evidence/README.md",
+      "sha256": "4b265522ac0099e427ece9d16cde2175ab79db3bf7594c64c5e81c45deda733a",
+      "size": 870
+    },
+    {
+      "path": "evidence/sandbox-full-stack-certification.json",
+      "sha256": "027524401f65ed9c9d4dff7f8133b7a30b3ff1c54f25f7bfb5b992bbca293dd3",
+      "size": 1020
+    },
+    {
+      "path": "install/ONE-COMMAND.txt",
+      "sha256": "23e3f33594040db73dad7eb76b93bc6021f73e2dca252696ef77c202e4c28797",
+      "size": 251
+    },
+    {
+      "path": "install/app-release-public-key.pem",
+      "sha256": "c19a25e861a036cd2238e42bae776ab3cd137fd5dd35ee5accd7177123b9b2cc",
+      "size": 625
+    },
+    {
+      "path": "install/privora-autossl.service",
+      "sha256": "a1996c5153e44eff6d2aea9e014a0593c78600eaf91ad31bfd8f66069463793c",
+      "size": 349
+    },
+    {
+      "path": "install/privora-autossl.timer",
+      "sha256": "5c6e789eb89967cbd17ce461c1140f6aabc1fc41b2112adb133050556144b2a8",
+      "size": 189
+    },
+    {
+      "path": "install/privora-install.sh",
+      "sha256": "781209b201e88c4b6888193ff3a61ad40c3abad5db05fdc631d044db88a730a1",
+      "size": 84610
+    },
+    {
+      "path": "install/privora-maintenance.service",
+      "sha256": "f1f8fe01524645048b91b5e2b6b7f9a235b47e980a9cd04d155d9e6b94d64a41",
+      "size": 253
+    },
+    {
+      "path": "install/privora-maintenance.timer",
+      "sha256": "6dadf8cad973fc31bdf0ed7ef91c1f92c5752f38320959338094120fa3859b50",
+      "size": 165
+    },
+    {
+      "path": "install/release-public-key.pem",
+      "sha256": "b46f10757d8209ebb6e3379d35a5fdda982823407228925bace468a4c3edf412",
+      "size": 625
+    },
+    {
+      "path": "panel/public/admin.php",
+      "sha256": "48d380bc9ce16bafac79adbaa37574165d5fd0f89f9dd8a3fbaf3c18b27ff20c",
+      "size": 109799
+    },
+    {
+      "path": "panel/public/api.php",
+      "sha256": "d52e0c621b60a3e32edec6293ac89db3fa0bd86e4043e1453428ade7d6abda13",
+      "size": 136815
+    },
+    {
+      "path": "panel/public/assets/app.css",
+      "sha256": "87059c93efe00e1884332a1a295dec29f7afcefe7ea51cc15c12583604a0535d",
+      "size": 97531
+    },
+    {
+      "path": "panel/public/assets/app.js",
+      "sha256": "64db033b41f98de84f80b86a21162e019518034b5e6a548a4d03b8f3631d7d76",
+      "size": 162698
+    },
+    {
+      "path": "panel/public/assets/components.js",
+      "sha256": "7673de8828f631a05260f4bfd83d361a6ee910bdb61b97b76b3787d6ce7a4a37",
+      "size": 11825
+    },
+    {
+      "path": "panel/public/assets/customer.js",
+      "sha256": "5e5495e0988614568129765635bbde2792d8a308556482ed17b0d59348a78eef",
+      "size": 91283
+    },
+    {
+      "path": "panel/public/assets/ppanel-icons.svg",
+      "sha256": "463ff6c7e4be1527dc564f5e70f63d9da433c76e0286e7f5c65c2e02a9c67b57",
+      "size": 6155
+    },
+    {
+      "path": "panel/public/assets/privora-labs-full.png",
+      "sha256": "32977d83c8031228a261b4370916e4882f35d15101e699b00960e0cbb7b3a8d2",
+      "size": 664127
+    },
+    {
+      "path": "panel/public/assets/privora-labs-mark.png",
+      "sha256": "82aebf957663208886073a79227350d50a6aa2cd4d6ca285cfdd341d32c4cf4d",
+      "size": 234540
+    },
+    {
+      "path": "panel/public/assets/v7-admin.js",
+      "sha256": "812b8f649bf311db05701ae2b7eccc77df88aebb051fbd9b9a60a9b41f1cdaf6",
+      "size": 22575
+    },
+    {
+      "path": "panel/public/assets/v7-customer.js",
+      "sha256": "612226e4f4e062e603566358b6bc7a83af43d7ea57eca9772b97f689cca202e5",
+      "size": 12522
+    },
+    {
+      "path": "panel/public/customer.php",
+      "sha256": "6203e55108a4c19dc2ecd688aded39488aca817399390fd8d064dd5ba204c170",
+      "size": 85537
+    },
+    {
+      "path": "panel/public/external-api.php",
+      "sha256": "7278d2334dfd78f09f76f3cc99538435a13674d7b150c5ef0d89ee0cf8ab6250",
+      "size": 8517
+    },
+    {
+      "path": "panel/public/index.php",
+      "sha256": "08a2ca0db6b5970577e061775c513ac3e1fd67371d32526832798fe171be1833",
+      "size": 3873
+    },
+    {
+      "path": "panel/src/AgentClient.php",
+      "sha256": "d26a4473cb8cff25f4a92a8133883c1708a0774f599a884eb7347757730e3d02",
+      "size": 5226
+    },
+    {
+      "path": "panel/src/Auth.php",
+      "sha256": "308a1078231175426bf1254e69a4fca5c7ce690b1b998d068c39547484ddf3ae",
+      "size": 8539
+    },
+    {
+      "path": "panel/src/Store.php",
+      "sha256": "b581834de5632e028dd4207ad4debadb9a2774f3c38e3054e14d5f86cb40147a",
+      "size": 16909
+    },
+    {
+      "path": "panel/src/Totp.php",
+      "sha256": "188e4427eb79a0b15797f3e9e693361fb2317dccc0f56d9339fc394fe8a026e4",
+      "size": 5289
+    },
+    {
+      "path": "panel/src/bootstrap.php",
+      "sha256": "4f3bbfa07d9a3998487cf2a3c9c0f0fb368061202ec66e6c29f262ce36d478db",
+      "size": 732
+    },
+    {
+      "path": "release/key-ceremony-offline.sh",
+      "sha256": "113814449d21ba6ed8515e036cb9339a7d08d56f6e06f33cfd1818ac836aa554",
+      "size": 1479
+    },
+    {
+      "path": "release/nginx-delivery.conf.example",
+      "sha256": "bea5409537c03a6715fb21da50f0ff8b5d0aa8beceef9f5b53d290016efa0d45",
+      "size": 655
+    },
+    {
+      "path": "release/prepare-delivery-root.sh",
+      "sha256": "7acefee7fa17170547c0216679f59fa22b8bef97fdfddf2fd77e404c7a367c92",
+      "size": 894
+    },
+    {
+      "path": "release/set-production-public-keys.sh",
+      "sha256": "e3487e279c4f9263376a6bfda35c2e35867e69d34a756e35be611d71b1486e67",
+      "size": 1116
+    },
+    {
+      "path": "scripts/apply-recovery-vhost.sh",
+      "sha256": "502c8a6308b1a55f917cc231f406c610035e99e0a093507d709c336c7f7e1719",
+      "size": 7748
+    },
+    {
+      "path": "scripts/build-agent.sh",
+      "sha256": "68b12b785ac311bf6f34c1159b331693c1f213f2ab43e0afcdcbeabddacfb879",
+      "size": 303
+    },
+    {
+      "path": "scripts/build-cert-binaries.sh",
+      "sha256": "7096e0bd2afdf66a3011c420281ba03970e5c83ca2461c7c60223108a42223fa",
+      "size": 611
+    },
+    {
+      "path": "scripts/build-signed-release.sh",
+      "sha256": "01ac62bde8509dabec088aa212211572465c4415d4225670f121756d0ce808ee",
+      "size": 4420
+    },
+    {
+      "path": "scripts/build-upload-update-zip.sh",
+      "sha256": "3c1583ea54a2456012420d849dbc251c429a235924ba9b42f45067eec03da63e",
+      "size": 2994
+    },
+    {
+      "path": "scripts/configure-component-manager-runtime.sh",
+      "sha256": "c092d249b7a514f4689d2e76baadf739210706eaa733b057afdcb44be44af338",
+      "size": 1713
+    },
+    {
+      "path": "scripts/configure-phpmyadmin.sh",
+      "sha256": "f0176a3d99c9763a5c6a1a497a690b59b652ee8454f65f4271fd39e9e28bb8df",
+      "size": 6491
+    },
+    {
+      "path": "scripts/configure-webmail.sh",
+      "sha256": "0f65ecc4666823a184cf65da3447ac951cbcc58e878b9f69a1edba13d567957f",
+      "size": 9765
+    },
+    {
+      "path": "scripts/dev.sh",
+      "sha256": "dce763af82d7ef9c4cbad6bd77477a71458f68ddcf66c23e72af1cdf23cb938a",
+      "size": 1458
+    },
+    {
+      "path": "scripts/init-panel.php",
+      "sha256": "fb82d7c9b8f4e1841e91da35d8cc71ce3b0a81a0bdb626bbb4bb07b34c81f2a5",
+      "size": 1551
+    },
+    {
+      "path": "scripts/integration-smoke.sh",
+      "sha256": "9e9429d86eb30f4b7173c72c038722d29e67853de3f89ac30d7e6c82f580930d",
+      "size": 8319
+    },
+    {
+      "path": "scripts/live-host-cert.sh",
+      "sha256": "42bec2b9b9d0003ce77f635d3fd5cd4b9f22b2f7a3034bb5dfd18cc1cc8e875d",
+      "size": 2556
+    },
+    {
+      "path": "scripts/migrate.sh",
+      "sha256": "a173f504951635b95e212375cfdab15d7555b5b5421bcb4e06a2473a1d085ef7",
+      "size": 5781
+    },
+    {
+      "path": "scripts/privora-autossl-retry.php",
+      "sha256": "9291d1a2b8c26ce9282c62e345a066723b46e88258bb56b1ed1bdbf1afc2e8b0",
+      "size": 986
+    },
+    {
+      "path": "scripts/privora-dns-reconcile-postupdate.php",
+      "sha256": "7aabcf1409520b95e9b82b5aa8d4bd9744d1cc8ffa9655c5018fe49c9f177654",
+      "size": 2930
+    },
+    {
+      "path": "scripts/privora-update-rollback.sh",
+      "sha256": "0488fc93f35db375b092279d1cc74bc196d36bd496519530a38a11a61cb24927",
+      "size": 3107
+    },
+    {
+      "path": "scripts/privora-update.sh",
+      "sha256": "f36885f6d65fc33ca625204246d6dbfcd0c00e30e2e9a11dcf138cc2f9b49a81",
+      "size": 33287
+    },
+    {
+      "path": "scripts/reconcile-mail-auth.sh",
+      "sha256": "b620932a2d7374dab2543d049e9f1fc6a54ffb8135a5658951be643c545b0d48",
+      "size": 7294
+    },
+    {
+      "path": "scripts/reconcile-site-panel-shortcuts.py",
+      "sha256": "1075fe9d308d857f2cd40fc27c0cb78515d12a41797a44eaffde97459fac6732",
+      "size": 4017
+    },
+    {
+      "path": "scripts/reconcile-site-panel-shortcuts.sh",
+      "sha256": "949a89fe1aa93115541137f5746c24d6512e07a83b9230bcdf4b384e0749b5e2",
+      "size": 1914
+    },
+    {
+      "path": "scripts/render-panel-nginx.py",
+      "sha256": "fe35ed8a6ffd28466b572d3e3cf535d968238321c622dba8f23f81f636a941cb",
+      "size": 6223
+    },
+    {
+      "path": "scripts/repair-7.0-rev5r8-dovecot-live.py",
+      "sha256": "c03e0ea8a9cd766a54ad39cd18b71086ec912b162455c7f2212f2b3799967244",
+      "size": 2167
+    },
+    {
+      "path": "scripts/sign-app-release-manifest.sh",
+      "sha256": "d938ea51d093bed24c7fa8f6ca913fd54e0a4885c11e5f064fd9729f0ccaca96",
+      "size": 1314
+    },
+    {
+      "path": "scripts/test-6.47-domain-selector-website-editor.sh",
+      "sha256": "200070150dd5bb09189f2ffe4ca7641224eed18473b90768565eb786c8f0baed",
+      "size": 1538
+    },
+    {
+      "path": "scripts/test-6.48-autossl-certificate-inventory.sh",
+      "sha256": "4bcfabffe1c144a6cf9ddd563d680b03454f69c4f6d8dec63e54352cc78b7b91",
+      "size": 1348
+    },
+    {
+      "path": "scripts/test-6.49-nameserver-readiness.sh",
+      "sha256": "485933f0a4e0fa13df98abcb0393f69869a8aae498d188b9285724ae2d964094",
+      "size": 1233
+    },
+    {
+      "path": "scripts/test-6.52-domain-vhost-reconciliation.sh",
+      "sha256": "28134792076100a9cf089c3819d7c352cbe6c4839c29a508acc332a1aa7bbff1",
+      "size": 610
+    },
+    {
+      "path": "scripts/test-6.54-dns-zone-readiness.sh",
+      "sha256": "80ab7afb5627c91fb7b32d4e657df775ca63402d9cffe078126acbaa770667b2",
+      "size": 818
+    },
+    {
+      "path": "scripts/test-6.55-dns-zone-inventory.sh",
+      "sha256": "77379ce53ec1ef4c50613593a212b74621bf0a74312843f6951b6c36878a3bda",
+      "size": 1312
+    },
+    {
+      "path": "scripts/test-6.56-panel-surface-ports.sh",
+      "sha256": "bd7ae9d2b5f75e051b62be68671404fed02c6001680395183d3e7a1b7474cf97",
+      "size": 2795
+    },
+    {
+      "path": "scripts/test-6.56-version-truth.sh",
+      "sha256": "c5b849e347fd6d6437c4a850697e53d3a1aa632df1d3111dc3459a15a0ce6870",
+      "size": 1352
+    },
+    {
+      "path": "scripts/test-6.59-update-center-resilience.sh",
+      "sha256": "647608662084e1f50286792bc6851bd88c347a7753ae0a0ccfe253932617957a",
+      "size": 470
+    },
+    {
+      "path": "scripts/test-6.60-live-domain-autossl-pcc.sh",
+      "sha256": "55241d11f530abb11dcc66f52ba4b039c503c56d32359d175ad409a631b22857",
+      "size": 3278
+    },
+    {
+      "path": "scripts/test-6.61-update-dns-reliability.sh",
+      "sha256": "c7a65600bcaf2a48ff88bbf7f5fe68bcfc6cf57e6843183a184858008517b12a",
+      "size": 2071
+    },
+    {
+      "path": "scripts/test-6.62-update-dns-reliability.sh",
+      "sha256": "1122a7fdd491a1ea056e92f75d6a5ba1af2d6808c89a54bdc419b84052abf84a",
+      "size": 4238
+    },
+    {
+      "path": "scripts/test-6.63-dns-creation-contract.sh",
+      "sha256": "e8e9a4e2865bfc4a303a8b06e18ffce79f14079be29d3be3858ae8e643e7ee3c",
+      "size": 608
+    },
+    {
+      "path": "scripts/test-6.64-agent-dns-handoff.sh",
+      "sha256": "905242baebb15850073bdaaf988999110208d785af5d6d7fd7502d248fd821b9",
+      "size": 1022
+    },
+    {
+      "path": "scripts/test-6.65-domain-ns-selection-package-inventory.sh",
+      "sha256": "fb4e7934cc97e17fb0b73f215e2a9c33b8971dab70743a453cb1ce84e6b93815",
+      "size": 777
+    },
+    {
+      "path": "scripts/test-6.65-ppanel-usernames.sh",
+      "sha256": "3949889f651573208a142aecdce478fef4eba6d21d7eb0ea1f7a04b1ebf8c614",
+      "size": 2298
+    },
+    {
+      "path": "scripts/test-6.66-explicit-nameserver-assignment-core-status.sh",
+      "sha256": "19a1a3fe98e648aa4ab6e90f91811df2bca0a402299d1bee9999085ac4da7170",
+      "size": 1189
+    },
+    {
+      "path": "scripts/test-6.67-package-dns-state-reliability.sh",
+      "sha256": "2fdb607d6e81a1a27b3b889b2bd2e9f490d41c196c1bb4db51926ffeb702e8a1",
+      "size": 1382
+    },
+    {
+      "path": "scripts/test-6.68-dns-site-autossl-reliability.sh",
+      "sha256": "a93154a1ae86501ec559f9a65b6efd8a23168d7af394a83f04eb76879edb3a38",
+      "size": 1931
+    },
+    {
+      "path": "scripts/test-6.69-phpmyadmin-integration.sh",
+      "sha256": "4e5e24956c2fa00492b5d211681740f1b880b658015fb02e9681bbc8a2f8b395",
+      "size": 1895
+    },
+    {
+      "path": "scripts/test-6.70-database-lifecycle.sh",
+      "sha256": "ebbcf4f452d8902568fff7f96f21e704239e6318c898595057954f7c4dc94814",
+      "size": 2283
+    },
+    {
+      "path": "scripts/test-6.71-config-components.sh",
+      "sha256": "fee0b7f1ddb486d9f0a1517cc71ac8e357890300dbe5fb80ac966d07a42c2fce",
+      "size": 3335
+    },
+    {
+      "path": "scripts/test-6.71-webmail-provisioning.sh",
+      "sha256": "f0347bea5a71fd52feeca0c840ccfceb83199c7b151fdbb75720e17623bd86bd",
+      "size": 2350
+    },
+    {
+      "path": "scripts/test-6.72-ppanel-workspace-filemanager-analytics.sh",
+      "sha256": "cedba6dc442c44e789cd20840bbca0acb5795d85eeccd8b8e2097f3540dc5969",
+      "size": 6102
+    },
+    {
+      "path": "scripts/test-6.73-account-termination-preflight.sh",
+      "sha256": "dc31874ec2fe3a3d51e7925400d91560f54625ed768c78782534a5254f16549b",
+      "size": 1281
+    },
+    {
+      "path": "scripts/test-6.74-stage-a-account-package-reseller.sh",
+      "sha256": "bfb7edaff73543a155ebfc2846c13d8dd4605c941588227e84419e8bc4ce7733",
+      "size": 2409
+    },
+    {
+      "path": "scripts/test-6.75-stage-b-software-php.sh",
+      "sha256": "249beddda56bbf5a4a0925f8d574b248f672b70e6f800d43503fe4bcc4054617",
+      "size": 1220
+    },
+    {
+      "path": "scripts/test-6.76-stage-c-database-center.sh",
+      "sha256": "97e2732e121a13831ec1045d205b6ab437cddcc8d817409b9c6e8c0f721f6a5b",
+      "size": 1180
+    },
+    {
+      "path": "scripts/test-6.77-stage-d-certificate-lifecycle.sh",
+      "sha256": "ecb99d85ed795389f195190dfa9f67dbf0c4afd775f15b46387d75f19daffe36",
+      "size": 999
+    },
+    {
+      "path": "scripts/test-6.78-ui-component-apt-hotfix.sh",
+      "sha256": "4a3c64b921bcba7754ccb2b6f58272c6b48ab96b3819f43d472e1f834d8845a5",
+      "size": 1430
+    },
+    {
+      "path": "scripts/test-6.79-ui-renderer-component-presets.sh",
+      "sha256": "ed486318d9d8b13306f000bdec9e82843a62347a06de897b9b2a2879fc726987",
+      "size": 3710
+    },
+    {
+      "path": "scripts/test-6.80-runtime-ui-convergence.sh",
+      "sha256": "5160f25fb9113b9aadfbc825c1bccf0f502531197ad6d36c35d37c6f4f92eaf9",
+      "size": 2669
+    },
+    {
+      "path": "scripts/test-6.81-component-controller.sh",
+      "sha256": "bcaf0401c8a9f26a74e9540e3e56579f5f5c4877314b63a98da9d651b0f1b303",
+      "size": 1889
+    },
+    {
+      "path": "scripts/test-6.82-component-installability-version-truth.sh",
+      "sha256": "c6752e7e88399ab5e65d9f789422a3b73c3585899379887dad374c8f0cba38c7",
+      "size": 2681
+    },
+    {
+      "path": "scripts/test-6.83-software-job-progress.sh",
+      "sha256": "b6338cab4e8065da00c97c242af312b34a561c038ceb43a908232352bab461c8",
+      "size": 5552
+    },
+    {
+      "path": "scripts/test-6.84-package-policy-secure-mail.sh",
+      "sha256": "08c5c6ab670c1679ea2f6b533f8a29f71591759380383678dfc30718cf965525",
+      "size": 1725
+    },
+    {
+      "path": "scripts/test-6.85-professional-mail-center.sh",
+      "sha256": "aaf9d85371cac8e9c2af903cd5fa9aee2b88724b25a7729cb862ea0912ab0735",
+      "size": 4350
+    },
+    {
+      "path": "scripts/test-6.86-subdomain-document-root.sh",
+      "sha256": "ec9342fbf3da74ff4bc3e59e40ff96c7b3adffb0db76edafa5ca92a7300bd28d",
+      "size": 2524
+    },
+    {
+      "path": "scripts/test-6.87-mail-domain-config.sh",
+      "sha256": "ab8c985c4e2ebc022f30206d1772b48b2acc15c688a08bff825e272836b46521",
+      "size": 1983
+    },
+    {
+      "path": "scripts/test-6.88-mail-domain-readiness-auth-delete.sh",
+      "sha256": "8e0e05399e975a95773e4c604570ad61150b856939731d53e7183d700130699d",
+      "size": 1135
+    },
+    {
+      "path": "scripts/test-6.89-virtual-mail-auth.sh",
+      "sha256": "5c1ab5086f70ee166a6e05910f8225484725b6d0bb86fa919e74d836d4aab2ad",
+      "size": 2424
+    },
+    {
+      "path": "scripts/test-6.90-panel-coverage-polish.sh",
+      "sha256": "ded7acac019d175859dda3c72231d0391f5e6612b1bc8614d9b42108ca57d5b6",
+      "size": 6351
+    },
+    {
+      "path": "scripts/test-7.0-operational-train-polish.sh",
+      "sha256": "6cd80dad4461de50b47c44e0ef8d9242b993dbacec2ee4952e4ed181d30426cf",
+      "size": 9436
+    },
+    {
+      "path": "scripts/test-7.0-release-train-polish.sh",
+      "sha256": "63017c1c85e5647968f4ac5c52c5cfe68c6863cd08a303ef4cfab0f728657996",
+      "size": 7506
+    },
+    {
+      "path": "scripts/test-7.0-rev5r2-database-package-capacity.sh",
+      "sha256": "0eb22894b0891313391c227c2b55ad57da3170dc454be963ea0a866f72ae5196",
+      "size": 1375
+    },
+    {
+      "path": "scripts/test-7.0-rev5r4-pcc-runtime-readiness.sh",
+      "sha256": "ee0fbb49fe8f0bb2e369650fb8bd50de9ad91aca90b9437e30dbe7cc83b40cb0",
+      "size": 560
+    },
+    {
+      "path": "scripts/test-7.0-rev5r5-autossl-webroot-traversal.sh",
+      "sha256": "54eb250690405b2a7f9f2ea48fadf701ff0e0863caecf1dbb04dada59cbd3ac7",
+      "size": 1521
+    },
+    {
+      "path": "scripts/test-7.0-rev5r6-autossl-mail-lineage.sh",
+      "sha256": "23888d5986b897352d0663cab1746c23a5c391f9f73b729f81f7ca3ffc42fe2b",
+      "size": 2383
+    },
+    {
+      "path": "scripts/test-7.0-rev5r7-manual-mail-tls-routing.sh",
+      "sha256": "0651f6d6213d177a935b0b4e6bade45af6d152a3c8c84442e026c040320f4bcf",
+      "size": 735
+    },
+    {
+      "path": "scripts/test-7.0-rev5r8-dovecot-render.sh",
+      "sha256": "4b768873b5424ac9ad1867e69dbd7468292b8519ff79284b45aa86e42165053f",
+      "size": 1208
+    },
+    {
+      "path": "scripts/test-7.0-rev5r9-postfix-check-isolation.sh",
+      "sha256": "ff54df4ce49f2089d1a1864565744fd53cf481316f4f81da90c96bbb7014cb78",
+      "size": 640
+    },
+    {
+      "path": "scripts/test-auth.php",
+      "sha256": "2c6584130156b980c66ae6e7e0a927a1bb02e59439f60ab4a701231147524d20",
+      "size": 538
+    },
+    {
+      "path": "scripts/test-postfix-check-sandbox-hotfix.sh",
+      "sha256": "a2f1e56fddca2543bcdf7cbb4f8e87e93e04738fbab665c0544680d5d608c339",
+      "size": 678
+    },
+    {
+      "path": "scripts/test-recovery-vhost-mutation.sh",
+      "sha256": "cc71b0be56dd1af767f69542ea63a6e8093e87763cd635f5cede29e5e63b3819",
+      "size": 1262
+    },
+    {
+      "path": "scripts/test-release-pipeline.sh",
+      "sha256": "c04c69e7a305bd906ad0f51129a08ac8218290765db91103c53b1112d431eb6f",
+      "size": 1539
+    },
+    {
+      "path": "scripts/test-upload-update-pipeline.sh",
+      "sha256": "e422a84d6d75e923ad15879cdaa1858889a18ce1d133f6e2ba4af1df3059299f",
+      "size": 1836
+    },
+    {
+      "path": "scripts/verify-signed-release.sh",
+      "sha256": "e355db15ec3d5f6fc17cecf101d22a948d689a66dd41552733bd80612a31caba",
+      "size": 1087
+    },
+    {
+      "path": "scripts/verify-upload-update.py",
+      "sha256": "963cbef16453e6f18cc89150165ea4ca1fc870df582e62053284d5e1cd65c6f1",
+      "size": 7639
+    },
+    {
+      "path": "scripts/verify.sh",
+      "sha256": "eea129d7e5371e07feda8eaef99b8f1325e24aa200072badf00647f0a71df0a6",
+      "size": 33153
+    },
+    {
+      "path": "scripts/vps-host-certify.sh",
+      "sha256": "0cb2258bde320a8f113a3c3919ebd3b9680d3e99fbfa28d23efcead50c804e37",
+      "size": 8154
+    }
+  ]
+}

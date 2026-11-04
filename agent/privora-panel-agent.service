@@ -1,0 +1,34 @@
+[Unit]
+Description=Privora Panel Privileged Server Agent
+After=network.target
+
+[Service]
+Type=simple
+EnvironmentFile=/etc/privora-panel/agent.env
+ExecStart=/usr/local/libexec/privora-agent --socket /run/privora-panel/agent.sock --socket-group privora-panel --audit /var/log/privora-panel/audit.jsonl --state /var/lib/privora-panel/agent-state.json
+Restart=on-failure
+RestartSec=2
+RuntimeDirectory=privora-panel
+RuntimeDirectoryMode=0750
+StateDirectory=privora-panel
+StateDirectoryMode=0750
+LogsDirectory=privora-panel
+LogsDirectoryMode=0750
+UMask=0007
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectKernelLogs=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+LockPersonality=true
+MemoryDenyWriteExecute=true
+
+# The current non-mock agent intentionally does not implement Linux hosting-user,
+# firewall, cloud or fabric mutation backends. Do not weaken this unit broadly;
+# add narrowly scoped privileges only alongside a typed, tested operation.
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,28 @@
+{
+  "schema": "privora-app-release-manifest-v1",
+  "generated_at": "REPLACE_AT_RELEASE_TIME",
+  "releases": [
+    {
+      "template": "wordpress",
+      "version": "EXACT_CURATED_VERSION",
+      "url": "https://official-source.example/wordpress.tar.gz",
+      "sha256": "REPLACE_WITH_64_HEX_SHA256",
+      "archive": "tar.gz",
+      "strip_components": 1,
+      "max_bytes": 67108864,
+      "bootstrap": "wordpress",
+      "current": true
+    },
+    {
+      "template": "joomla",
+      "version": "EXACT_CURATED_VERSION",
+      "url": "https://official-source.example/joomla.zip",
+      "sha256": "REPLACE_WITH_64_HEX_SHA256",
+      "archive": "zip",
+      "strip_components": 0,
+      "max_bytes": 134217728,
+      "bootstrap": "joomla",
+      "current": true
+    }
+  ]
+}

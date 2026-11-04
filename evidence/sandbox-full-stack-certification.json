@@ -1,0 +1,39 @@
+{
+  "profile": "privora-panel-host-adapter-certification-v1",
+  "status": "FAIL",
+  "role": "full",
+  "timestamp": "2026-08-19T04:49:14.717389+00:00",
+  "machine_id_sha256": "be9f8f4ccd62df85480fba962d5fa86a2cdaa83a9589a845fd474a7a49c3894d",
+  "certified_adapters": [
+    "account-files",
+    "app-installer",
+    "cpanel-inspector",
+    "cpanel-stager",
+    "database-renderer",
+    "dns-renderer",
+    "linux-users",
+    "local-backup",
+    "nginx",
+    "privora-updater"
+  ],
+  "missing_required_adapters": [
+    "php-fpm",
+    "mariadb",
+    "postgresql",
+    "authoritative-dns",
+    "acme",
+    "nftables",
+    "postfix",
+    "dovecot",
+    "rspamd",
+    "openssh-sftp",
+    "filesystem-quota",
+    "cgroup-v2"
+  ],
+  "host": {
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "machine": "x86_64"
+  },
+  "certification_log_sha256": "865a419328b994d9df25f9b1f897a68ea245c3377610ccd2ff578789183cafab",
+  "notes": "Machine-bound. Never copy to another VPS. Full installer promotion requires status PASS."
+}

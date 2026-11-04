@@ -1,0 +1,16 @@
+# Static release delivery only. Terminate TLS with production certificates and restrict write access to the release-publishing identity.
+server {
+  listen 443 ssl http2;
+  server_name install.privora.example;
+  root /srv/privora-delivery/install;
+  location = / { try_files /index =404; default_type text/plain; add_header Cache-Control "no-store" always; }
+  location / { return 404; }
+}
+server {
+  listen 443 ssl http2;
+  server_name downloads.privora.example;
+  root /srv/privora-delivery/downloads;
+  autoindex off;
+  location / { try_files $uri =404; add_header X-Content-Type-Options nosniff always; }
+  location ~ /\.(?!well-known) { deny all; }
+}

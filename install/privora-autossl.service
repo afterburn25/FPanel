@@ -1,0 +1,11 @@
+[Unit]
+Description=Privora Pending AutoSSL Retry
+After=network-online.target privora-panel-agent.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+EnvironmentFile=/etc/privora-panel/agent.env
+Environment=PRIVORA_AGENT_SOCKET=/run/privora-panel/agent.sock
+ExecStart=/usr/bin/php /opt/privora-panel/scripts/privora-autossl-retry.php
+Nice=10

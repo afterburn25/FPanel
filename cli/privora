@@ -1,0 +1,33 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+$url=rtrim((string)(getenv('PRIVORA_API_URL') ?: 'http://127.0.0.1:8080/external-api.php'),'/');
+$key=(string)getenv('PRIVORA_API_KEY');
+if($key===''){fwrite(STDERR,"Set PRIVORA_API_KEY to a scoped Privora API key.\n");exit(2);}
+$cmd=$argv[1]??'help';
+function request(string $url,string $key,string $resource,string $method='GET',?array $body=null): array {
+    $headers=["Authorization: Bearer {$key}","Accept: application/json"];
+    $opts=['http'=>['method'=>$method,'ignore_errors'=>true,'timeout'=>10,'header'=>implode("\r\n",$headers)]];
+    if($body!==null){$json=json_encode($body,JSON_UNESCAPED_SLASHES|JSON_THROW_ON_ERROR);$opts['http']['content']=$json;$opts['http']['header'].="\r\nContent-Type: application/json\r\nContent-Length: ".strlen($json);}
+    $raw=@file_get_contents($url.'?resource='.rawurlencode($resource),false,stream_context_create($opts));
+    if($raw===false){throw new RuntimeException('Unable to reach Privora API.');}
+    $data=json_decode($raw,true);if(!is_array($data))throw new RuntimeException('Privora API returned invalid JSON.');
+    $status=0;foreach($http_response_header??[] as $h){if(preg_match('#^HTTP/\S+\s+(\d+)#',$h,$m)){$status=(int)$m[1];break;}}
+    if($status>=400)throw new RuntimeException((string)($data['error']??"API request failed ({$status})"));
+    return $data;
+}
+function printJson(array $v): void { echo json_encode($v,JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES)."\n"; }
+try {
+    if($cmd==='health'){printJson(request($url,$key,'health'));exit;}
+    if($cmd==='accounts'){printJson(request($url,$key,'accounts'));exit;}
+    if($cmd==='sites'){printJson(request($url,$key,'sites'));exit;}
+    if($cmd==='horizons'){printJson(request($url,$key,'horizons'));exit;}
+    if($cmd==='account-create'){$u=$argv[2]??'';$d=$argv[3]??'';$p=$argv[4]??'Starter';printJson(request($url,$key,'accounts','POST',['username'=>$u,'primary_domain'=>$d,'package'=>$p]));exit;}
+    if($cmd==='site-create'){$d=$argv[2]??'';$u=$argv[3]??'';$php=$argv[4]??'8.4';printJson(request($url,$key,'sites','POST',['domain'=>$d,'username'=>$u,'php_version'=>$php]));exit;}
+    if($cmd==='backup'){$target=$argv[2]??'';printJson(request($url,$key,'backups','POST',['scope'=>'site','resource'=>$target,'destination'=>'local']));exit;}
+    if($cmd==='dns-create'){$domain=$argv[2]??'';printJson(request($url,$key,'dns','POST',['domain'=>$domain,'dnssec'=>true]));exit;}
+    if($cmd==='ssl-issue'){$domain=$argv[2]??'';printJson(request($url,$key,'ssl','POST',['domain'=>$domain]));exit;}
+    echo "Privora CLI 5.0.0-dev\n\nCommands:\n  health\n  accounts\n  sites\n  horizons\n  account-create <user> <domain> [package]\n  site-create <domain> <user> [php]\n  backup <resource>\n  dns-create <domain>\n  ssl-issue <domain>\n";
+} catch(Throwable $e){fwrite(STDERR,"privora: {$e->getMessage()}\n");exit(1);}

@@ -1,0 +1,10 @@
+[Unit]
+Description=Privora Panel Safe Automatic Maintenance
+After=network-online.target
+Wants=network-online.target
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/privora-update --automatic
+Nice=10
+IOSchedulingClass=best-effort
+IOSchedulingPriority=6

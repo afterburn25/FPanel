@@ -1,0 +1,5 @@
+/dist/
+/panel/storage/*.json
+.runtime/
+*.log
+*.pid
